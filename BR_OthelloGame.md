@@ -123,7 +123,7 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 | Actor | Loại | Vai trò | Tương tác chính |
 |---|---|---|---|
 | **Player** | Con người | Người chơi duy nhất, thực hiện các thao tác game | Đặt quân, xem kết quả, chơi lại |
-| **AI Opponent** | Hệ thống tự động | Tính toán và thực hiện nước đi tự động sau mỗi lượt Player |
+| **AI Opponent** | Hệ thống tự động | Đối thủ máy tính | Tính toán và thực hiện nước đi tự động sau mỗi lượt Player |
 | **System** | Phần mềm | Xử lý logic game, điều phối luồng | Khởi tạo game, xử lý nước đi, phát hiện kết thúc |
 
 
