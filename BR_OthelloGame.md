@@ -40,7 +40,7 @@
 
 Dự án xây dựng một ứng dụng desktop cho phép người dùng chơi trò chơi cờ lật **Othello** (còn gọi là Reversi) theo chế độ **một người chơi đấu với máy tính (Player vs AI — PvE)**.
 
-Người chơi không cần tạo tài khoản hay đăng nhập. **Phiên bản MVP hiện tại** tập trung vào core gameplay chính xác và ổn định. Các tính năng như nhập tên hiển thị, chọn màu quân, AI thực chiến, và hệ thống điểm cao sẽ được phát triển ở các phiên bản tiếp theo (xem [mục 14 — Future Enhancements](#14-future-enhancements)).
+Người chơi không cần tạo tài khoản hay đăng nhập. **Phiên bản MVP hiện tại** tập trung vào core gameplay, AI thực chiến chính xác và ổn định. Các tính năng như nhập tên hiển thị, chọn màu quân, và hệ thống điểm cao sẽ được phát triển ở các phiên bản tiếp theo (xem [mục 14 — Future Enhancements](#14-future-enhancements)).
 
 ### 1.2 Bối cảnh & Vấn đề cần giải quyết
 
@@ -123,9 +123,9 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 | Actor | Loại | Vai trò | Tương tác chính |
 |---|---|---|---|
 | **Player** | Con người | Người chơi duy nhất, thực hiện các thao tác game | Đặt quân, xem kết quả, chơi lại |
+| **AI Opponent** | Hệ thống tự động | Tính toán và thực hiện nước đi tự động sau mỗi lượt Player |
 | **System** | Phần mềm | Xử lý logic game, điều phối luồng | Khởi tạo game, xử lý nước đi, phát hiện kết thúc |
 
-> **Ghi chú:** AI Opponent chưa được tích hợp trong phiên bản MVP. Tính năng AI thực chiến sẽ được thêm vào ở phiên bản tiếp theo (xem FE-03).
 
 ---
 
