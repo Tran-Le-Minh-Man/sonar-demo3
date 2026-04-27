@@ -40,7 +40,7 @@
 
 Dự án xây dựng một ứng dụng desktop cho phép người dùng chơi trò chơi cờ lật **Othello** (còn gọi là Reversi) theo chế độ **một người chơi đấu với máy tính (Player vs AI — PvE)**.
 
-Người chơi không cần tạo tài khoản hay đăng nhập. **Phiên bản MVP hiện tại** tập trung vào core gameplay, AI thực chiến chính xác và ổn định. Các tính năng như nhập tên hiển thị, chọn màu quân, và hệ thống điểm cao sẽ được phát triển ở các phiên bản tiếp theo (xem [mục 14 — Future Enhancements](#14-future-enhancements)).
+Người chơi không cần tạo tài khoản hay đăng nhập. **Phiên bản MVP hiện tại** tập trung vào core gameplay, AI thực chiến chính xác và ổn định. Các tính năng như nhập tên hiển thị, chọn màu quân, và hệ thống điểm cao sẽ được phát triển ở các phiên bản tiếp theo (xem [mục 14 — Future Enhancements](#14-future-enhancements)), ác chức năng này được loại khỏi MVP để giảm scope và đảm bảo hoàn thành core gameplay trong thời gian học kỳ.
 
 ### 1.2 Bối cảnh & Vấn đề cần giải quyết
 
@@ -56,7 +56,7 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 | ID | Mục tiêu kinh doanh | Lý do tồn tại |
 |---|---|---|
 | **BO-01** | Loại bỏ hoàn toàn rào cản đăng ký/đăng nhập | Người dùng bỏ ứng dụng ngay ở bước xác thực — giảm friction = tăng tỷ lệ sử dụng |
-| **BO-02** | Cung cấp đối thủ AI đủ thách thức để thay thế bạn chơi | Người dùng không có bạn chơi cùng nhưng vẫn muốn trải nghiệm cạnh tranh có chiều sâu *(phát triển ở phiên bản sau)* |
+| **BO-02** | Cung cấp đối thủ AI có khả năng tạo trải nghiệm chơi liên tục không nhàm chán | Người dùng không có bạn chơi cùng nhưng vẫn muốn trải nghiệm cạnh tranh có chiều sâu |
 | **BO-03** | Tạo động lực chơi lại thông qua bảng điểm cá nhân | Không có vòng lặp động lực → người dùng chơi một lần rồi bỏ *(phát triển ở phiên bản sau)* |
 | **BO-04** | Ứng dụng hoạt động hoàn toàn offline, không phụ thuộc server | Đảm bảo tính khả dụng 100% bất kể kết nối mạng |
 
@@ -77,8 +77,9 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 | ID | Chỉ số | Mục tiêu | Cách đo |
 |---|---|---|---|
 | **KPI-01** | Thời gian từ mở ứng dụng đến nước đi đầu tiên | ≤ 30 giây | Đo thủ công khi demo |
-| **KPI-02** | Độ chính xác logic game | 0 lỗi trong 20 test case chuẩn theo luật Othello | Kiểm thử bằng bộ test case được thiết kế sẵn |
+| **KPI-02** | Tỷ lệ người dùng hoàn thành ít nhất 1 ván trong lần sử dụng đầu tiên | ≥ 90% | Quan sát khi demo với người dùng |
 | **KPI-03** | Tỷ lệ ván đấu hoàn thành (không crash) | 100% trong 20 ván test liên tiếp | Chạy 20 ván, đếm số ván kết thúc bình thường |
+| **KPI-04** | Mức độ hiểu gameplay (qua hành vi) | Người chơi không cần hỏi luật sau 1–2 lượt | Quan sát trực tiếp
 
 ---
 
@@ -192,6 +193,7 @@ Mỗi yêu cầu chức năng mô tả *điều gì* hệ thống cần thực h
 | **NFR-03** | Độ chính xác | Logic game tuân thủ chính xác 100% luật Othello tiêu chuẩn quốc tế trong mọi tình huống. | High |
 | **NFR-04** | Tính sử dụng | Giao diện đủ trực quan để người dùng mới hoàn thành ván đấu đầu tiên mà không cần hướng dẫn bên ngoài. | Medium |
 | **NFR-05** | Khả năng mở rộng | Kiến trúc hệ thống cho phép bổ sung AI, hệ thống điểm cao, chọn màu quân hoặc chế độ PvP trong phiên bản tương lai mà không cần thiết kế lại toàn bộ. | Low |
+| **NFR-06** | UI Clarity | Các ô hợp lệ phải được highlight bằng màu sắc hoặc hiệu ứng dễ phân biệt với ô thường | High
 
 ---
 
