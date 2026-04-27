@@ -141,6 +141,7 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 | **BR-03** | Ứng dụng phải hoạt động đầy đủ chức năng mà không cần kết nối Internet tại bất kỳ thời điểm nào. | BO-04 |
 | **BR-04** | Người dùng phải được thông báo rõ ràng về mọi sự kiện quan trọng trong ván đấu (lượt bị bỏ, kết thúc trận). | BO-02 |
 | **BR-05** | Hệ thống phải cho phép người chơi bắt đầu ván mới ngay lập tức sau khi kết thúc ván trước. | BO-01 |
+| **BR-06** | Người dùng phải có thể bắt đầu chơi và thực hiện nước đi đầu tiên một cách nhanh chóng và dễ dàng mà không cần hướng dẫn phức tạp. | 
 
 ---
 
