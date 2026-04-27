@@ -95,7 +95,7 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 6. Tính năng chơi lại nhanh.
 7. AI đối thủ sử dụng thuật toán Minimax với Alpha-Beta Pruning.
 
-> **Lưu ý:** Các tính năng nhập tên, chọn màu quân, AI thực chiến, lưu điểm cao, và bảng xếp hạng được liệt kê tại [mục 14 — Future Enhancements](#14-future-enhancements).
+> **Lưu ý:** Các tính năng nhập tên, chọn màu quân, lưu điểm cao, trực quan và phản hồi tức thì cho AI và bảng xếp hạng được liệt kê tại [mục 14 — Future Enhancements](#14-future-enhancements).
 
 ### 5.2 Out of Scope
 
@@ -260,7 +260,7 @@ Các tính năng sau đây là **yêu cầu của khách hàng** nhưng chưa đ
 |---|---|---|---|
 | **FE-01** | Nhập tên người chơi | Cho phép người chơi nhập tên hiển thị trước khi bắt đầu ván đấu. Tên được sử dụng để gán điểm vào bảng xếp hạng và hiển thị trong màn hình kết quả. Tên phải chứa ít nhất 1 ký tự, không xác thực tính duy nhất. | BRule-08 |
 | **FE-02** | Chọn màu quân (đen / trắng) | Cho phép người chơi lựa chọn chơi quân đen hoặc quân trắng trước mỗi ván đấu. Nếu chọn trắng, bên còn lại sẽ đi trước theo đúng luật (đen luôn đi trước). | BRule-01 |
-| **FE-03** | Nâng cao hiệu suất và UX người dùng | AI phản hồi trong ≤ 2 giây. Hiển thị rõ vị trí AI vừa đặt quân. | NFR-01, NFR-07 |
+| **FE-03** | Trực quan và phản hồi tức thì cho AI| AI phản hồi trong ≤ 2 giây. Hiển thị rõ vị trí AI vừa đặt quân. | NFR-01, NFR-07 |
 | **FE-04** | Lưu điểm cao (Save High Score) | Tự động lưu điểm số người chơi vào file cục bộ sau mỗi ván hoàn thành. Nếu cùng tên đã tồn tại, chỉ cập nhật nếu điểm mới cao hơn. Dữ liệu bền vững qua các phiên. |  BR-03, BRule-09 |
 | **FE-05** | Xem bảng xếp hạng (High Score Leaderboard) | Hiển thị Top 10 điểm cao được lưu cục bộ, có thể truy cập từ màn hình chào hoặc màn hình kết quả. Danh sách sắp xếp từ cao đến thấp. | BO-03 |
 
