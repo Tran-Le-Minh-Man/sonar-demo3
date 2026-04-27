@@ -92,6 +92,7 @@ Sinh viên và người yêu thích trò chơi trí tuệ thường không có b
 4. Xử lý tự động trường hợp bỏ lượt khi không có nước đi hợp lệ.
 5. Màn hình kết quả sau mỗi ván đấu (thắng / thua / hòa).
 6. Tính năng chơi lại nhanh.
+7. AI đối thủ sử dụng thuật toán Minimax với Alpha-Beta Pruning.
 
 > **Lưu ý:** Các tính năng nhập tên, chọn màu quân, AI thực chiến, lưu điểm cao, và bảng xếp hạng được liệt kê tại [mục 14 — Future Enhancements](#14-future-enhancements).
 
