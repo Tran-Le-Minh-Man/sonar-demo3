@@ -158,8 +158,9 @@ Các quy tắc bất biến xuất phát từ luật chơi Othello chuẩn quố
 | **BRule-05** | Ván đấu kết thúc khi cả hai bên đều không còn nước đi hợp lệ hoặc bàn cờ đã đầy. |
 | **BRule-06** | Bên có nhiều quân trên bàn cờ khi ván kết thúc là bên thắng. Nếu bằng nhau, kết quả là hòa. |
 | **BRule-07** | Điểm số của người chơi là số quân của họ trên bàn cờ khi ván kết thúc (tối đa 64). |
+| **BRule-08** | Tên người chơi được nhập trước mỗi ván đấu và phải chứa ít nhất 1 ký tự. Tên này không được xác thực hay kiểm tra tính duy nhất. |
+| **BRule-09** | Bảng xếp hạng chỉ lưu điểm cao nhất của mỗi tên người chơi — nếu tên trùng thì cập nhật điểm cao hơn, không tạo bản ghi mới. |
 
-> **Ghi chú:** Các quy tắc liên quan đến tên người chơi (BRule-08) và bảng xếp hạng (BRule-09) sẽ được bổ sung khi tính năng tương ứng được phát triển (xem FE-01, FE-04).
 
 ---
 
